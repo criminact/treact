@@ -1,6 +1,6 @@
 {
   "name": "MyProject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -28,9 +28,9 @@
     "react-test-renderer": "18.1.0"
   },
   "repository": {
-   "type": "git",
-   "url": "git+https://github.com/criminact/treact.git"
- },
+    "type": "git",
+    "url": "git+https://github.com/criminact/treact.git"
+  },
   "jest": {
     "preset": "react-native"
   }
