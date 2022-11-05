@@ -49,11 +49,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-caches-
       - name: Make Gradlew Executable
-        run: cd MyProject/android && chmod +x ./gradlew
+        run: cd android && chmod +x ./gradlew
 
       - name: Generate App APK
         run: |
-          cd MyProject/android && ./gradlew assembleRelease --no-daemon
+          cd android && ./gradlew assembleRelease --no-daemon
 
       ## sign generated apk
       - name: Sign APK
